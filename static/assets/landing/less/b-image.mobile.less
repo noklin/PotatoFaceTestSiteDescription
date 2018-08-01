@@ -1,0 +1,51 @@
+@import "_import";
+
+.b-image {
+    &__wrapper {
+        position: absolute;
+        z-index: 100;
+    }
+    &__source {
+        width: 100%;
+        height: auto;
+        &--tablet,
+        &--desktop {
+            display: none;
+        }
+    }
+
+    &--devices {
+        width: 277px;
+        right: 0;
+        bottom: -180px;
+    }
+    &--services {
+        width: 292px;
+        left: 50%;
+        bottom: -99px;
+        margin-left: -146px;
+    }
+    &--operations {
+        width: 292px;
+        left: 50%;
+        bottom: -99px;
+        margin-left: -146px;
+    }
+    &--structure {
+        width: 292px;
+        left: 50%;
+        bottom: 42px;
+        margin-left: -146px;
+    }
+    &--payment {
+        width: 286px;
+        left: 50%;
+        bottom: 42px;
+        margin-left: -143px;
+    }
+    &--start {
+        width: 132px;
+        top: 90px;
+        right: 0;
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>B61ED13B-BA1D-4216-8D46-1944AEFA5C2F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="title-page-3.3" transform="translate(-130.000000, -2232.000000)">
+            <g id="Group-21" transform="translate(130.000000, 2232.000000)">
+                <g id="Group-12-Copy-2">
+                    <path d="M30,60 C52.8871981,60 60,46.5685425 60,30 C60,13.4314575 52.8839905,0 30,0 C7.11600955,2.80248057e-15 0,13.4314575 0,30 C0,46.5685425 7.11280185,60 30,60 Z" id="Oval-5" fill="#00ACE9"></path>
+                    <g id="ic_payment_black_24px" transform="translate(18.000000, 19.000000)">
+                        <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                    </g>
+                </g>
+                <path d="M38,24 L30,24 L28,22 L22,22 C20.89,22 20.01,22.89 20.01,24 L20,36 C20,37.11 20.89,38 22,38 L38,38 C39.11,38 40,37.11 40,36 L40,26 C40,24.89 39.11,24 38,24 Z M37,32 L34,32 L34,35 L32,35 L32,32 L29,32 L29,30 L32,30 L32,27 L34,27 L34,30 L37,30 L37,32 Z" id="Shape" fill="#EEFBFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

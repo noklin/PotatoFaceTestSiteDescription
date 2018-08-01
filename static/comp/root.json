@@ -1,3 +1,11 @@
-{
-
+{ 
+	"type" : "html",
+	"config" : {"lol" : "lol"},
+	"att" : {"style" : "color:red", "class": "lol228"},
+	"name" : "b2bMainPage",
+	"htmlSource" : "html/land.html",	
+	"html" : {"type" : "link"},
+	"awaitFor" : [""],
+	"inputScopes" : ["global"],
+	"outputScopes" : ["global"] 
 }

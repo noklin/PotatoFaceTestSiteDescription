@@ -1,0 +1,59 @@
+@import "_import";
+
+@media @desktop-min {
+    .b-menu {
+        &__list {
+            &--header {
+                display: block;
+                flex-grow: 1;
+            }
+        }
+        &__item {
+            margin-right: 10px;
+        }
+        &__login {
+            width: 148px;
+            height: 54px;
+            background-color: #00a8ff;
+            font-family: @font-base;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1;
+            letter-spacing: -0.2px;
+            color: #ffffff;
+            display: none;
+            &--active {
+                display: block;
+            }
+        }
+    }
+}
+
+@media @desktop {
+    .b-menu {
+        &__list {
+            &--header {
+                display: block;
+                flex-grow: 1;
+            }
+        }
+        &__item {
+            margin-right: 25px;
+        }
+        &__login {
+            width: 148px;
+            height: 54px;
+            background-color: #00a8ff;
+            font-family: @font-base;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1;
+            letter-spacing: -0.2px;
+            color: #ffffff;
+            display: none;
+            &--active {
+                display: block;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>C2638A7B-6FD6-4FC1-9539-4386567E270F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-title" transform="translate(-20.000000, -3126.000000)">
+            <g id="Group-16" transform="translate(20.000000, 3126.000000)">
+                <g id="Group-12">
+                    <path d="M30,60 C52.8871981,60 60,46.5685425 60,30 C60,13.4314575 52.8839905,0 30,0 C7.11600955,2.80248057e-15 0,13.4314575 0,30 C0,46.5685425 7.11280185,60 30,60 Z" id="Oval-5" fill="#FFFFFF"></path>
+                    <g id="ic_payment_black_24px" transform="translate(18.000000, 19.000000)">
+                        <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                        <path d="M20,4 L4,4 C2.89,4 2.01,4.89 2.01,6 L2,18 C2,19.11 2.89,20 4,20 L20,20 C21.11,20 22,19.11 22,18 L22,6 C22,4.89 21.11,4 20,4 Z M20,18 L4,18 L4,12 L20,12 L20,18 Z M20,8 L4,8 L4,6 L20,6 L20,8 Z" id="Shape" fill="#00ACE9" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,50 @@
+@charset "utf-8";
+@import "_media";
+
+body,html{height: 100%;}
+*{border:none;outline:0;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+code,kbd,pre,samp,tt,var{font:12px/14px Consolas,"Courier New",monospace}
+body,code,dd,dl,form,pre{margin:0}
+code,pre{white-space:pre-wrap}
+sub,sup{position:relative;display:inline-block;font-size:11px;line-height:11px}
+sub{top:5px;vertical-align:middle}
+sup{top:-2px;margin-top:-11px}
+abbr,acronym{cursor:help;border-bottom:1px dotted #999}
+address,cite,dfn{font-style:normal}
+img{vertical-align:bottom}
+td,textarea,th{vertical-align:top}
+button,input,select{overflow:visible;vertical-align:middle}
+legend{color:#000;margin:0 0 -2px;padding:0}li{display:block;list-style:none}
+optgroup option{padding-left:22px}
+table{border-collapse:collapse}
+caption,th{text-align:left}
+td,th{padding:0}
+address,blockquote,fieldset,
+h1,h2,h3,h4,h5,h6,ol,p,ul{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6,th{font-weight:400}
+q{quotes:"\00ab" "\00bb" "\201e" "\201c"}
+q:after{content:"\00bb"}
+q:before{content:"\00ab"}
+q>q:after{content:"\201c"}
+q>q:before{content:"\201e"}
+textarea{font-size:100%;padding:0;font-family:arial}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+a {text-decoration: none;color: #1B83E8;}
+*, *:before, *:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+
+.owerflow--hidden-mobile {
+    overflow: hidden;
+}
+.owerflow--hidden-desktop {
+    overflow: auto;
+}
+
+@media @desktop-min {
+    .owerflow--hidden-mobile {
+        overflow: auto;
+    }
+    .owerflow--hidden-desktop {
+        overflow: hidden;
+    }
+    body { background: #E4E4E4; }
+}

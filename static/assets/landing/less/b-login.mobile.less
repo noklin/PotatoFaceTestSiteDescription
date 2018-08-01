@@ -1,0 +1,26 @@
+@import "_import";
+
+.b-login {
+
+    &__actions {
+        display: flex;
+        flex-direction: row;
+        padding-top: 5px;
+        &--mobile {
+            padding: 0;
+            margin-bottom: 40px;
+        }
+    }
+
+
+    &__submit {
+        flex: 1 1 40%;
+    }
+    &__register {
+        display: none;
+        &--mobile {
+            flex: 1 0 50%;
+            display: block;
+        }
+    }
+}

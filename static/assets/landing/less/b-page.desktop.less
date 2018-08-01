@@ -1,0 +1,336 @@
+@import "_import";
+
+@media @desktop-min {
+    .b-page {
+        &__header {
+            background: none!important;
+            .b-page__section-inner {
+                width: @desktop-min-width;
+                margin: 0 auto;
+                background: #333;
+                padding: 0;
+                justify-content: space-between;
+            }
+        }
+        &__footer {
+            background: none!important;
+            padding: 0;
+            .b-page__section-inner {
+                width: @desktop-min-width;
+                margin: 0 auto;
+                background: #f3f3f3;
+                padding: 73px 70px 0;
+                justify-content: space-between;
+            }
+        }
+        &__section {
+            width: @desktop-min-width;
+            margin: 0 auto;
+            &-inner {
+                padding: 70px;
+            }
+
+            &--welcome {
+                .b-page__section-inner {
+                    height: 426px;
+                    padding: 118px 50px 100px 50px;
+                }
+            }
+            &--devices {
+                .b-page__section-inner {
+                    padding-top: 111px;
+                    padding-left: 70px;
+                    padding-right: 70px;
+                }
+            }
+
+            &--services {
+                .b-page__section-inner {
+                    padding: 250px 130px 70px 700px;
+                }
+            }
+
+            &--operations {
+                .b-page__section-inner {
+                    padding: 70px 700px 255px 130px;
+                    &:after {
+                        content: "";
+                        width: 1150px;
+                        height: 204px;
+                        display: block;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        bottom: 15px;
+                        background: url(../svg/bg-operations-desktop-1.svg) center center no-repeat;
+                        z-index: 20;
+                    }
+                    &:before {
+                        content: "";
+                        width: 1150px;
+                        height: 191.2px;
+                        display: block;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        bottom: -2px;
+                        background: url(../svg/bg-operations-desktop-2.svg) center center no-repeat;
+                        z-index: 30;
+                    }
+                }
+            }
+
+            &--structure {
+                .b-page__section-inner {
+                    height: 502px;
+                    padding: 80px 40px 14px 700px;
+                }
+            }
+
+            &--payment {
+
+                .b-page__section-inner {
+
+                    padding: 108px 750px 217px 130px;
+
+                    &:after {
+                        content: "";
+                        width: 1150px;
+                        height: 234.7px;
+                        display: block;
+                        position: absolute;
+                        bottom: 55px;
+                        left: 0;
+                        right: 0;
+                        background: url(../svg/bg-payment-desktop-1.svg) center center no-repeat;
+                        z-index: 20;
+                    }
+                    &:before {
+                        content: "";
+                        width: 1150px;
+                        height: 191.2px;
+                        display: block;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        background: url(../svg/bg-payment-desktop-2.svg) center center no-repeat;
+                        z-index: 30;
+                    }
+                }
+            }
+
+            &--advantages {
+                .b-page__section-inner {
+
+                    height: 882px;
+                    display: flex;
+                    flex-direction: row;
+                    padding: 80px 70px 45px 70px;
+
+                    &:before {
+                        content: "";
+                        width: 1150px;
+                        height: 120px;
+                        display: block;
+                        position: absolute;
+                        top: -95px;
+                        left: 0;
+                        right: 0;
+                        background: url(../svg/bg-payment-desktop-3.svg) center center no-repeat;
+                        z-index: 30;
+                    }
+                }
+            }
+
+            &--start {
+                .b-page__section-inner {
+                    height: 540px;
+                    padding: 74px 600px 320px 70px;
+                }
+            }
+        }
+        &__navigation {
+            display: block;
+            justify-content: flex-end;
+            margin-right: 10px;
+
+            &-item {
+                margin-left: 10px;
+                font-family: @font-din;
+                font-size: 12px;
+                font-weight: 500;
+                letter-spacing: -0.2px;
+                text-align: left;
+                color: #ffffff;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+
+
+
+@media @desktop {
+    .b-page {
+        &__header {
+            background: none!important;
+            .b-page__section-inner {
+                width: @desktop-width;
+                margin: 0 auto;
+                background: #333;
+                padding: 0;
+                justify-content: space-between;
+            }
+        }
+        &__footer {
+            background: none!important;
+            padding: 0;
+            .b-page__section-inner {
+                width: @desktop-width;
+                margin: 0 auto;
+                background: #f3f3f3;
+                padding: 73px 130px 0;
+                justify-content: space-between;
+            }
+        }
+        &__section {
+            width: @desktop-width;
+            margin: 0 auto;
+            &-inner {
+                padding: 130px;
+            }
+
+            &--welcome {
+                .b-page__section-inner {
+                    height: 526px;
+                    padding: 118px 128px 100px 128px;
+                }
+            }
+            &--devices {
+                .b-page__section-inner {
+                    padding-top: 111px;
+                    padding-left: 130px;
+                    padding-right: 130px;
+                }
+            }
+
+            &--services {
+                .b-page__section-inner {
+                    padding: 478px 130px 140px 850px;
+                }
+            }
+
+            &--operations {
+                .b-page__section-inner {
+                    padding: 212px 850px 315px 130px;
+                    &:after {
+                        content: "";
+                        width: 1440px;
+                        height: 204px;
+                        display: block;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        bottom: 15px;
+                        background: url(../svg/bg-operations-desktop-1.svg) center center no-repeat;
+                        z-index: 20;
+                    }
+                    &:before {
+                        content: "";
+                        width: 1440px;
+                        height: 191.2px;
+                        display: block;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        bottom: -2px;
+                        background: url(../svg/bg-operations-desktop-2.svg) center center no-repeat;
+                        z-index: 30;
+                    }
+                }
+            }
+
+            &--structure {
+                .b-page__section-inner {
+                    height: 702px;
+                    padding: 164px 40px 14px 875px;
+                }
+            }
+
+            &--payment {
+
+                .b-page__section-inner {
+
+                    padding: 208px 850px 217px 130px;
+
+                    &:after {
+                        content: "";
+                        width: 1440px;
+                        height: 234.7px;
+                        display: block;
+                        position: absolute;
+                        bottom: 55px;
+                        left: 0;
+                        right: 0;
+                        background: url(../svg/bg-payment-desktop-1.svg) center center no-repeat;
+                        z-index: 20;
+                    }
+                    &:before {
+                        content: "";
+                        width: 1440px;
+                        height: 191.2px;
+                        display: block;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        background: url(../svg/bg-payment-desktop-2.svg) center center no-repeat;
+                        z-index: 30;
+                    }
+                }
+            }
+
+            &--advantages {
+                .b-page__section-inner {
+
+                    height: 882px;
+                    display: flex;
+                    flex-direction: row;
+                    padding: 141px 130px 45px 130px;
+
+                    &:before {
+                        content: "";
+                        width: 1440px;
+                        height: 120px;
+                        display: block;
+                        position: absolute;
+                        top: -95px;
+                        left: 0;
+                        right: 0;
+                        background: url(../svg/bg-payment-desktop-3.svg) center center no-repeat;
+                        z-index: 30;
+                    }
+                }
+            }
+
+            &--start {
+                .b-page__section-inner {
+                    height: 640px;
+                    padding: 114px 750px 320px 130px;
+                }
+            }
+        }
+        &__navigation {
+            margin-right: 50px;
+
+            &-item {
+                margin-left: 35px;
+                font-size: 14px;
+            }
+        }
+    }
+}

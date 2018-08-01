@@ -1,0 +1,92 @@
+@import "_import";
+
+@media @desktop-min {
+    .b-image {
+        &__source {
+            &--desktop {
+                display: block;
+            }
+
+            &--mobile,
+            &--tablet {
+                display: none;
+            }
+        }
+
+
+        &--devices {
+            width: 618px;
+            right: 0;
+            bottom: -200px;
+        }
+        &--services {
+            width: 600px;
+            top: 210px;
+            left: 30px;
+            bottom: auto;
+            margin-left: 0;
+        }
+        &--operations {
+            width: 600px;
+            top: 50px;
+            right: 19px;
+            bottom: auto;
+        }
+        &--structure {
+            width: 600px;
+            top: 30px;
+            left: 28px;
+            bottom: auto;
+        }
+
+        &--payment {
+            width: 404px;
+            height: 176px;
+            top: 107px;
+            right: 105px;
+        }
+
+        &--start {
+            width: 603px;
+            height: 605px;
+            top: -100px;
+            bottom: 0;
+        }
+
+    }
+}
+@media @desktop {
+    .b-image {
+        &--devices {
+            width: 818px;
+            bottom: -335px;
+        }
+        &--services {
+            width: 800px;
+            top: 398px;
+        }
+        &--operations {
+            width: 800px;
+            top: 139px;
+        }
+        &--structure {
+            width: 800px;
+            top: 76px;
+        }
+
+        &--payment {
+            width: 554px;
+            height: 376px;
+            top: 147px;
+            right: 155px;
+        }
+
+        &--start {
+            width: 823px;
+            height: 825px;
+            top: -170px;
+            bottom: 0;
+        }
+    }
+
+}

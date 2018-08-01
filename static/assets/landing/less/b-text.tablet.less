@@ -1,0 +1,65 @@
+@import "_import";
+
+@media @tablet {
+    .b-text {
+        &__icon {
+            margin-bottom: 25px;
+        }
+        &__title {
+            font-family: @font-din;
+            font-size: 32px;
+            line-height: 1.28;
+            letter-spacing: -1px;
+            text-align: left;
+            color: @color-footer-bg;
+            margin-bottom: 21px;
+        }
+        &__description {
+            font-family: @font-din;
+            font-size: 15px;
+            line-height: 1.67;
+            letter-spacing: -0.4px;
+            text-align: left;
+            color: @color-footer-bg;
+            margin-bottom: 40px;
+        }
+        &--welcome {
+            flex: 1 1 80%;
+            padding-right: 50px;
+            .b-text__title {
+                font-size: 29px;
+            }
+            .b-text__description {
+                font-size: 15px;
+                line-height: 1.67;
+                letter-spacing: -0.4px;
+                text-align: left;
+                color: #ffffff;
+                margin-bottom: 0;
+                font-family: @font-din-light;
+            }
+        }
+        &--devices {
+            .b-text__title {
+                font-size: 36px;
+            }
+        }
+        &--structure {
+            .b-text__description {
+                padding-right: 50px;
+            }
+        }
+        &--advantages {
+            .b-text__title {
+                font-size: 36px;
+                font-family: @font-din-light;
+            }
+        }
+        &--start {
+            .b-text__title {
+                line-height: 42px;
+                margin-bottom: 64px;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+@import "_import";
+
+.b-menu {
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        &--header {
+            display: none;
+        }
+    }
+    &__login {
+        display: none;
+    }
+    &__item {
+        font-family: @font-din-light;
+        font-size: 15px;
+        line-height: 1.67;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: #ffffff;
+        padding: 8px 0;
+        span {
+            padding-right: 10px;
+            position: relative;
+            display: inline-block;
+            &:after {
+                content: "";
+                display: block;
+                width: 7px;
+                height: 7px;
+                position: absolute;
+                top: 2px;
+                right: 0;
+                background: url(../svg/menu-arrow.svg);
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,45 @@
+@import "_import";
+
+.b-button {
+    height: 52px;
+    display: inline-block;
+    border: none;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 54px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: @font-din-medium;
+    text-decoration: none;
+    .border-radius(2px);
+    .transition(background-color 0.3s, border 0.3s, color 0.3s);
+
+    &--orange {
+        background-color: @cl-rtd-number-background;
+        color: @cl-Project-white;
+
+        &:hover {
+            background-color: @cl-rtd-button-hover;
+        }
+    }
+
+    &--blue {
+        background-color: @cl-rtd-back-format-file;
+        color: @cl-Project-white;
+
+        &:hover {
+            background-color: @cl-rtd-hover-link-button;
+        }
+    }
+
+    &--start {
+        width: 172px;
+    }
+
+    &--texted {
+        color: #fff;
+        border: none;
+        background: none;
+    }
+}

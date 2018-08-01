@@ -1,0 +1,28 @@
+@import "_import";
+
+@media @desktop-min {
+    .b-sitemap {
+        display: flex;
+        flex-direction: row;
+
+        &__section {
+            flex: 0 0 240px;
+            border-bottom: none;
+            margin-bottom: 0!important;
+        }
+        &__title {
+            font-family: @font-din;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 1.67;
+            letter-spacing: -0.4px;
+            &:after {
+                display: none;
+            }
+        }
+        &__list {
+            border: none;
+            display: block;
+        }
+    }
+}

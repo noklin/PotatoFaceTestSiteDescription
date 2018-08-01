@@ -1,0 +1,96 @@
+@import "_import";
+
+.b-page {
+    &__wrapper {
+        width: 100%;
+        height: 100%;
+        min-width: 320px;
+        padding-top: 54px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__header {
+        height: 54px;
+        background: @color-footer-bg;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2000;
+        .b-page__section-inner {
+            height: 54px;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    &__content {
+        flex: 1 0 auto;
+    }
+    &__footer {
+        flex: 0 0 auto;
+        padding: 20px;
+        background: #f3f3f3;
+    }
+    &__section {
+        &-inner {
+            padding: 20px;
+            position: relative;
+        }
+
+        &--welcome {
+            background: #969696 url(../img/welcome-bg.jpg) 5% 50% no-repeat;
+            background-size: cover;
+            .b-page__section-inner {
+                padding: 31px 20px;
+            }
+        }
+        &--devices {
+            background-color: #f3f3f3;
+            .b-page__section-inner {
+                padding: 50px 20px 182px 20px;
+            }
+        }
+        &--services {
+            background-color: #ffffff;
+            .b-page__section-inner {
+                padding: 182px 20px 95px 20px;
+            }
+        }
+        &--operations {
+            background-color: #ffffff;
+            .b-page__section-inner {
+                padding: 140px 20px 95px 20px;
+            }
+        }
+        &--structure {
+            background-color: #ffffff;
+            .b-page__section-inner {
+                padding: 140px 20px 227px 20px;
+            }
+        }
+        &--payment {
+            background-color: @cl-font-blue;
+            .b-page__section-inner {
+                padding: 40px 20px 222px 20px;
+            }
+        }
+        &--advantages {
+            background-color: @color-footer-bg;
+            .b-page__section-inner {
+                padding: 40px 20px 0 20px;
+            }
+        }
+        &--start {
+            background-color: #f3f3f3;
+            .b-page__section-inner {
+                padding: 40px 20px 170px 20px;
+            }
+        }
+    }
+    &__navigation {
+        display: none;
+    }
+}

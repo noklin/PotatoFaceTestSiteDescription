@@ -1,0 +1,25 @@
+@import "_import";
+
+@media @desktop-min {
+    .b-logo {
+        &__image {
+            &--mobile {display: none}
+            &--tablet {display: none}
+            &--desktop {display: block}
+        }
+        &--header {
+            margin-left: 30px;
+        }
+        &--footer {
+            display: block;
+        }
+    }
+}
+
+@media @desktop {
+    .b-logo {
+        &--header {
+            margin-left: 50px;
+        }
+    }
+}

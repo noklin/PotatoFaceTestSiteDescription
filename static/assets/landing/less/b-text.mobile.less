@@ -1,0 +1,48 @@
+@import "_import";
+
+.b-text {
+
+    &__icon {
+        width: 60px;
+        height: 60px;
+        display: block;
+        object-fit: contain;
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        font-family: @font-din;
+        font-size: 26px;
+        line-height: 1.28;
+        letter-spacing: -0.8px;
+        text-align: left;
+        color: @color-footer-bg;
+        margin-bottom: 20px;
+        &--start {
+            margin-bottom: 55px;
+        }
+    }
+    &__description {
+        font-family: @font-din-light;
+        font-size: 18px;
+        line-height: 1.39;
+        letter-spacing: -0.5px;
+        text-align: left;
+        color: @color-footer-bg;
+        margin-bottom: 40px;
+    }
+
+    &--welcome {
+        .b-text__title {
+            font-size: 29px;
+        }
+        .b-text__description {}
+    }
+
+    &--light {
+        .b-text__title,
+        .b-text__description {
+            color: #fff;
+        }
+    }
+}
